@@ -22,13 +22,15 @@
             android:layout_margin="10dp"
             android:layout_weight="1"
             android:onClick="showCameraBtn"
-            android:text="camera"></Button>
+            android:backgroundTint="#9575CD"
+            android:text="카메라"></Button>
     <Button
         android:id="@+id/btn_image"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:layout_margin="10dp"
+        android:backgroundTint="#9575CD"
         android:text = "사진사용" ></Button>
  </LinearLayout>
     <LinearLayout
