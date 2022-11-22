@@ -54,11 +54,9 @@
         <ToggleButton
             android:id="@+id/like"
             android:layout_width="50dp"
-
             android:textOn=""
             android:textOff=""
             android:background="@drawable/toggle"
-            android:onClick="onCustomToggleClick"
             android:layout_height="wrap_content"></ToggleButton>
 
         <TextView
